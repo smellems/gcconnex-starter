@@ -23,6 +23,7 @@
     "elgg/zaudio": "dev-master",
     "iionly/tidypics": "2.0.2",
     "iionly/event_calendar": "2.0.0",
+    "iionly/poll": "2.0.2",
     "iionly/unvalidatedemailchange": "1.10.3",
     "smellems/achievement_badges": "dev-master",
     "smellems/b_extended_profile": "dev-master",
@@ -38,6 +39,7 @@
     "smellems/missions_profile_extend": "dev-master",
     "smellems/module_dump": "dev-master",
     "smellems/profile_picture_badges": "dev-master",
+    "smellems/toggle_language": "dev-master",
     "smellems/wet4": "dev-master"
   },
   "require-dev": {

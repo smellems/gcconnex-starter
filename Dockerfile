@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 # Install dependencies
 RUN apt-get update
-RUN apt-get install -y git apache2 php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-gd php7.0-curl php7.0-xml
+RUN apt-get install -y git apache2 php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-gd php7.0-curl php7.0-xml php7.0-mbstring
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite

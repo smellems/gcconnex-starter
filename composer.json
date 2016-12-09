@@ -30,6 +30,7 @@
     "smellems/c_email_extensions": "dev-master",
     "smellems/cp_notifications": "dev-master",
     "smellems/custom_index_widgets": "dev-master",
+    "smellems/default_plugin_order": "dev-master",
     "smellems/gc_dev_banner": "dev-master",
     "smellems/gc_profile_strength": "dev-master",
     "smellems/gc_registration": "dev-master",

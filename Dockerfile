@@ -3,7 +3,6 @@ FROM ubuntu:16.04
 RUN apt-get update && apt-get install -y \
     apache2 \
     composer \
-    git \
     libapache2-mod-php7.0 \
     php7.0 \
     php7.0-curl \

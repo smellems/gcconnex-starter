@@ -1,14 +1,14 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 RUN apt-get update && apt-get install -y \
     apache2 \
-    libapache2-mod-php7.0 \
-    php7.0 \
-    php7.0-curl \
-    php7.0-gd \
-    php7.0-mbstring \
-    php7.0-mysql \    
-    php7.0-xml \  
+    libapache2-mod-php7.2 \
+    php7.2 \
+    php7.2-json \
+    php7.2-gd \
+    php7.2-mbstring \
+    php7.2-mysql \    
+    php7.2-xml \  
 && a2enmod rewrite \
 && mkdir /data \
 && chown www-data:www-data /data \

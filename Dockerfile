@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y tzdata \
     libapache2-mod-php7.2 \
     php7.2 \
     php7.2-json \
+    php7.2-curl \
     php7.2-gd \
     php7.2-mbstring \
     php7.2-mysql \    
